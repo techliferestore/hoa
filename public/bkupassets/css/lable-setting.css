@@ -1,0 +1,855 @@
+.hoa_admin-generalLead-leftDiv{
+    background: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.hoa_admin-generalLead-leftDiv-h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: #000000;
+}
+
+.hoa_admin-generalLead-leftDiv-link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #5170FD;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hoa_admin-bottomBorder{
+    border-bottom: 0.2px solid #BDBDBD;
+    padding-bottom: 30%;
+    width: 100%;
+}
+
+.hoa_admin-generalLead-active-button{
+    background: #239C9C;
+    height: 38px;
+    border-radius: 5px;
+    padding-top: 7px;
+}
+
+.hoa_admin-generalLead-other-button{
+    color: #000000;
+    height: 38px;
+    border-radius: 5px;
+    padding-top: 7px;
+}
+
+.hoa_admin-generalLead-leftDiv-backend{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #333333;
+
+}
+
+
+.hoa_admin-generalLead-rightDiv-row1{
+    background: #FAFAFA;
+    /* Gray 3 */
+    font-family: 'Inter';
+    border: 0.2px solid #828282;
+    font-style: normal;
+    height: 40px;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+/* admin panel General lead */
+.div-generalLead{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+}
+
+.generalLead-firstRow{
+    background: #FAFAFA;
+    border: 0.2px solid #828282;
+}
+
+.generalLead-firstRow-GeneralLeadNavpill{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+    background-color: transparent;
+}
+
+.generalLead-firstRow-CallRequestNavpill{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #828282;
+}
+
+.hoa_generalLead-AddClient-Button{
+    background: #01655E;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+    height: 28px;
+    padding-top: 3px;
+    margin-top: 5%;
+    /* float: right; */
+}
+
+.hoa_generalLead-selectBox{
+    background: #FFFFFF;
+    height: 48px;
+    border: 0.2px solid #333333;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #000000;
+    padding-left: 5%;
+}
+
+option:hover{
+    background-color: #239C9C;
+    background: #239C9C;
+}
+
+
+.hoa_admin-generalLead-rightDiv-row2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #4F4F4F;
+    background: #F7F7F7;
+}
+
+.hoa_admin-table-button{
+    background: #FBA43F;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    border: transparent;
+}
+
+.hoa_admin-GeneralLead-ActiveStatus{
+    color: #3CAD39;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.hoa_admin-GeneralLead-InactiveStatus{
+    color: #EB5757;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/* admin panel - service head  */
+.hoa_admin-serviceHead-right-head{
+    background: #FAFAFA;
+    border:  0.2px solid#828282;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #000000;
+}
+
+.hoa_admin-serviceHead-heading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hoa_admin-middle-row-serviceName{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #000000;
+}
+
+.hoa_admin-middle-row-Button{
+    background: transparent;
+    border: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.hoa_admin-middle-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #A9A9A9;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.edit-button{
+    color: #239C9C;
+}
+
+.delete-button{
+    color: #EB5757;
+    padding-left: 10px;
+}
+
+.hoa_admin-rightMost-collapse{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.hoa_admin-rightmost-div{
+    border: 0.2px solid #828282;
+    padding-bottom: 21.5%;    
+    padding-left: 2%;
+}
+
+
+/* for services / bookkeeping */
+.hoa_admin-servBookkeeping-rightRow{
+    background: #FAFAFA;
+    border: 0.2px solid #828282;
+    height: 40px;
+    align-items: center;
+}
+
+.nav-item > .active > a { 
+    background-color: #239C9C ; 
+}
+
+.hoa_admin-servBookkeeping-basicDetails-h{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+}
+
+.hoa_admin-servBookkeeping-basicDetails-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #828282;
+}
+
+.hoa_admin-servBookkeeping-LabelSettings-label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #828282;
+}
+
+.hoa_admin-servBookkeeping-LabelSettings-leftTextBox{
+    /* background: #F7F7F7; */
+    /* hoa-button colors/dark grey green */
+    border: 0.5px solid #075A5A;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.hoa_admin-servBookkeeping-LabelSettings-leftTextBox-values{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 13px; */
+    color: #000000;
+}
+
+.hoa_admin-servBookkeeping-LabelSettings-RightTextBox{
+    background: #FFFFFF;
+    /* hoa-button colors/dark grey green */
+    border: 0.5px solid #075A5A;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+::placeholder { 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #828282;
+}
+
+.hoa_admin-servBookkeeping-LabelSettings-button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    background: #FBA43F;
+    border-radius: 4px;
+    border: transparent;
+    width: 277px;
+    height: 48px;
+}
+
+.hoa_admin-servBookkeeping-PriceSetting-leftTextBox-values{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #000000;
+    /* background: #F7F7F7; */
+    /* hoa-button colors/dark grey green */
+    border: 0.5px solid #075A5A;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.hoa_admin-servBookkeeping-PriceSetting-leftTextBox-ordering{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #01655E;
+}
+
+.hoa_admin-servBookkeeping-PriceSetting-RightTextBox{
+    background: #FFFFFF;
+    border: 0.2px solid #828282;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hoa_admin-servBookkeeping-PriceSetting-leftTextBox-button{
+    background: #FBA43F;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    border: transparent;
+    
+}
+
+.hoa_admin-servBookkeeping-PriceSetting-SetYourPriceBox{
+    background: #FFFFFF;
+    /* hoa-button colors/dark grey green */
+    border: 0.5px solid #075A5A;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 48px;
+}
+
+.hoa_admin-servBookkeeping-PriceSetting-searchBox{
+    background: #FFFFFF;
+    border: 0.5px solid #075A5A;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+    background-image: url('../icons/search.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content-box;
+    height: 48px;
+}
+
+.display_flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.hoa_admin-servBookkeeping-PriceSetting-tableHead{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* .active a {
+    background-color: #239C9C !important;
+    color: #FFFFFF;
+  } */
+
+.nav>li>a.active,
+.nav>li>a:hover,
+.nav>li>a:focus {
+   background-color: #239C9C !important;
+   color: #FFFFFF;
+}
+
+.nav>li>a:link{
+    color: #000000;
+}
+
+.nav-pills_bg-class{
+    background: #FAFAFA;
+    border: 0.2px solid #828282;
+}
+
+  .nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 32px;
+}
+
+tbody tr:hover{
+    /* background: #FFFFFF; */
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.25));
+  }
+
+.text-align-center{
+    text-align: center;
+}
+
+
+/* Add new blog */
+.hoa_blogs-AddnewBlog-right-topDiv-h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+
+/* .nav-pills>li>a:active,
+.nav-pills>li>a:hover,
+.nav-pills>li>a:focus{
+    background-color: #239C9C;
+} */
+
+.hoa_AddNewBlog-listItem-a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 110%;
+    color: #333333;
+    text-decoration: none;
+}
+
+.hoa_AddNewBlog-listItem-a:hover{
+    background: #239C9C;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.hoa_AddNewBlog-listItem-a.active{
+    background: #239C9C;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.hoa_blogs-AddnewBlog-right-selectCategory-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #4F4F4F;
+}
+
+.hoa_blogs-AddnewBlog-right-firstRow{
+    background: #FAFAFA;
+    border: 0.2px solid #828282;
+    margin-left: 0%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.hoa_blogs-AddnewBlog-publishButton{
+    background: #FBA43F;
+    border-radius: 4px;
+    border: #FBA43F;
+    color:#FFFFFF;
+    height: 31px;
+    padding-top: 5px;
+}
+
+.hoa_blogs-AddnewBlog-rightDiv-border{
+    border-left: 0.1px solid #828282;
+    border-bottom: 0.1px solid #828282;
+    /* border-right: 0.1px solid #828282; */
+}
+
+.hoa_blogs-AddnewBlog-right-addCategoryButton{
+    background: #FBA43F;
+    border-radius: 0px 0px 5px 5px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    height: 32px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.hoa_blogs-AddnewBlog-right-addCate-input{
+    background: #FFFFFF;
+    border: 0.5px solid #828282;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0px 0px;
+    line-height: 3em;
+    margin-top: 75%;
+}                
+
+.custom > a:hover{
+    color: white;
+    background-color:#239C9C;
+}
+
+.custom > a:focus{
+    background-color: #239C9C;
+}
+
+
+/* posted blogs */
+.hoa_blogs-postedBlogs-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.hoa_blogs-postedBlogs-rowAlignment{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.hoa_blogs-postedBlogs-rowAlignment:hover{
+    border: 0.5px solid #A9A9A9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    }
+
+.nav-pills .nav-link::before{
+    border: transparent;
+    background-color: #239C9C;
+}
+
+.nav-pills .nav-link:active{
+    border: transparent;
+    background-color: #239C9C;
+}
+
+.nav-pills .nav-link:active::after{
+    border: transparent;
+    background-color: #239C9C;
+}
+
+.hoa_blogs-postedBlogs-right-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #FAFAFA;
+    border: 0.2px solid #828282;
+}
+
+.hoa_blogs-postedBlogs-blogCount{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #A9A9A9;
+}
+
+.hoa_blogs-postedBlog-dropDown{
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color:#000000;
+    background: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.hoa_blogs-postedBlog-body-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+}
+
+.hoa_blogs-postedBlog-editBlog{
+    background: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #01655E;
+    border: transparent;
+}
+
+.hoa_blogs-postedBlog-DeleteBlog{
+    background: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #EB5757;
+    border: transparent;
+}
+
+.hoa_blogs-postedBlogs-images{
+    margin-left: -1.25%;
+}
+
+.hoa_blogs-postedBlogs-rowAlignment:hover .hoa_blogs-postedBlog-editDelete-buttonAlignment{
+    display: block;
+}
+
+.hoa_blogs-postedBlog-editDelete-buttonAlignment{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    margin-left: -1.25%;
+    display: none;
+}
+
+.hoa_blogs-postedBlog-footer-div{
+    background: #F7F7F7;
+    border: 0.5px solid #A9A9A9;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.hoa_blogs-postedBlog-footer-button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    background: #FBA43F;
+    border-radius: 4px;
+    border: transparent;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.last-div{
+    background: #000000;
+}
+
+.last-left-h{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-top: 11%;
+}
+
+.last-left-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #A9A9A9;
+}
+
+.last-h-bottomBorder{
+    border-bottom: 0.5px solid #FFFFFF;
+    padding-bottom: 3px;
+    width: 75%;
+    justify-content: right;
+}
+
+.hoa_home-lastdiv-middleBorder{
+    border-right: 0.5px solid #FFFFFF;
+    opacity: 0.6;
+}
+
+.hoa_home-last-leftDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: left;
+}
+
+.hoa_home-lastdiv-footer-blueLinks{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #5170FD;
+}
+
+.hoa_home-lastdiv-copyright{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #A9A9A9;
+}
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+.last-right-p1{
+    font-family:'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+
+    /* hoa-base colors/mid grey */
+    color: #A9A9A9;
+}
+
+.last-right-p2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+
+    /* hoa-base colors/pure white */
+    color: #FFFFFF;
+}
+
+.last-right-p3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    /* identical to box height, or 17px */
+
+    /* hoa-base colors/pure white */
+    color: #FFFFFF;
+}
+
+
+
+.lable_name{
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0px;
+text-align: left;
+color: #828282;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.border_linetext{
+    width: 388px;
+    height: 32px;
+    border-radius: 4px;
+    border: 0.2px solid #075A5A;
+    background-color: #fff;
+}
+.legal_stat{
+    margin-left: 10px;
+    text-align: center;
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.fill_circle{
+    float: right;
+    color: #FBA43F;
+    font-size: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.fill_circ{
+    float: right;
+    color: #828282;
+    font-size: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.border_lintext{
+    width: 388px;
+    height: 32px;
+    border-radius: 4px;
+    border: 0.2px solid #075A5A;
+    background-color: #f6f6f6;
+}
+.btn-change{
+height: 48px;
+width: 277px;
+border-radius: 4px;
+background-color: #FBA43F;
+font-family: 'Inter';
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0px;
+color: #fff;
+border: none;
+
+}

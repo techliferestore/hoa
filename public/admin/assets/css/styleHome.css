@@ -1,0 +1,667 @@
+.nav-header{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    color: #000000;
+}
+
+.hoa_home-border_bottom{
+border-bottom: 1px solid #000000;
+padding-bottom: 3px;
+width: 50%;
+}
+
+.hoa_home-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    size: 13px;
+    font-family:'Open Sans';
+    padding-top: 4.5%;
+}
+
+.hoa_home-header{
+    display: flex;
+    justify-items: center;    
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+}
+
+.para{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    color: #4F4F4F;
+    font-style: normal;
+}
+
+.para2{
+    font-size: 30px;
+    color: #000000;
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.subPara{
+    color: #4F4F4F;
+    font: 'Open Sans';
+}
+
+.hoa_home-button2{
+    background: #01655E;
+    width: 219px;
+    height: 56px;
+    border-radius: 8px;
+    margin-top: 2%;
+}
+
+.home-section2{
+  position: relative;
+  height: 100vh;
+  left: 130px;
+  width: calc(100% - 260px);
+  transition: all 0.5s ease;
+}
+
+.hoa_home-blackBanner{
+    background: #000000;
+    color: #FFFFFF;
+    padding-top: 3%;
+    padding-bottom: 7%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.hoa_home-thirdBanner{
+padding-top: 5%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 90%;
+/* or 34px */
+text-align: center;
+color: #000000;
+}
+
+.hoa_home-a{
+    background: transparent;
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+
+.hoa_home-fourthBanner-head{
+margin-top: 8%;
+padding-top: 3%;
+padding-left: 8%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 90%;
+color: #000000;
+}
+
+.hoa_home-fourthBanner-para{
+    padding-left: 8%;
+    margin-top: 1%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+a{   
+   color:#000;   
+}
+a:active {
+    color:#FBA43F;
+}
+a[tabindex]:focus {
+    color:#FBA43F;
+    outline: none;
+}
+
+.rectangle {
+  /* height: 400px; */
+  /* width: 310px; */
+  background-color: #239C9C;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 7%;
+  border-radius: 8px;
+  margin-bottom: 5%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.rectangle-header{
+    font-family:'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 113.9%;
+    /* identical to box height, or 21px */
+    text-align: center;
+    color: #FFFFFF;
+    padding: 5%;
+}
+
+.rectangle-div{
+    background: #FFFFFF;
+    font-family: 'Inter';
+    border-radius: 8px;
+    margin-top: -5%;
+    padding-top: 15%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 263px; */
+}
+
+.rectangle-p{
+    font-weight: 300;
+    font-size: 18px;
+    font-style: normal;
+    padding: 15%;
+    line-height: 27px;
+}
+
+.hoverDiv:hover{
+    box-shadow: 0px -7px 29px rgba(0, 0, 0, 0.25);
+}
+
+.fourth-left-h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 75px;
+    /* or 156% */
+    /* hoa-theme colors/grey green */
+    color: #01655E;
+    padding-top: 10%;
+    font-weight: 400;
+}
+
+.fourth-left-h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 71px;
+    line-height: 75px;
+    font-weight: 700;
+    /* or 156% */
+    /* hoa-theme colors/grey green */
+    color: #01655E;
+    margin-top: -5%;
+}
+
+
+.fourth-left-body{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+    color: #000000;
+    margin-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.fourth-right-body{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 110%;
+    /* or 14px */
+
+    color: #000000;
+    opacity: 0.6;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.info-text{
+    background: #D3EBEB;
+    height: 48px;
+    width: 311px;
+}
+
+
+.hoa_home-fifthBanner{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 130%;
+    /* or 19px */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hoa_home-sixth{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth_left_head{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 90%;
+/* or 34px */
+color: #FFFFFF;
+padding-top: 9%;
+padding-left: 13%;
+}
+
+.sixth_left_p{
+padding-top: 5%;
+font-family:'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+opacity: 0.9;
+justify-content: center;
+align-items: center;
+padding-left: 13%;
+padding-right: 10%;
+}
+
+.sixth_right_head{
+background: #D3EBEB;
+border-radius: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+color: #000000;
+text-align: center;
+}
+
+.sixth_button{
+    border:2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: transparent;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 157.5%;
+    /* or 28px */
+    text-align: center;
+    margin-left: 13%;
+    margin-top: 9%;
+    margin-bottom: 9%;
+}
+
+.six_right_div{
+    background: #F7F7F7;
+    justify-content: center;
+    align-items:flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+.sixth_right_head{
+    background: #D3EBEB;
+    /* text-align: center; */
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    border-radius: 10px;
+    margin-top: 16.3%;
+    
+}
+
+.sixth_right_body{
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 90%;
+    padding-top: 4%;
+}
+
+.seventh-div{
+    background: #FAFAFA;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15%;
+}
+
+.seventh-head{
+    font-family:'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 90%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.seventh-body{
+    padding-top: 8%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13%;
+    margin-top: 13%;
+    font-family:'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 90%;
+}
+
+.seventh-right{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 110%;
+    /* or 19px */
+    color: #222222;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px; /* change width */
+    height: 10px; /* change height */
+    padding: 0%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 100%;  /* add border-radius */
+    background: #D3EBEB;
+}
+
+.carousel-indicators :active{
+    color: #075A5A;
+}
+
+.caro-Designation{
+font-family: 'Inter';
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 90%;
+/* identical to box height, or 12px */
+text-align: left;
+color: #000000;
+margin-top: 2%;
+}
+
+.eigth-div{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.backgrnd{
+    position: relative;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    padding-top: 7%;
+    padding-bottom: 9%;
+}
+
+.layer1{
+    background-color: #000000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.layer2{
+    background-color: #000000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.eight-h1{
+    font-family: 'Inter';
+    font-weight:800;
+    font-style: normal;
+    text-align: center;
+    font-size: 38px;
+    line-height: 34.2px;
+    color: #FFFFFF;
+    margin-bottom: -8%;
+    z-index: 5;
+}
+
+.eight-h2{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 34.2px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 4;
+}
+
+.ninth-h{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 90%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.ninth-left-h1{
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    line-height: 21.78px;
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+.ninth-left-h2{
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    text-align: center;
+    font-weight: 800;
+    line-height: 30.26px;
+    font-size: 25px;
+}
+
+.ninth-left-p{
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    line-height: 21.78px;
+    font-size: 18px;
+    margin-top: 3%;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+.tenth-h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 90%;
+    /* identical to box height, or 18px */
+    text-align: center;
+    color: #000000;
+    padding-top: 5%;
+    margin-left: 5%;
+}
+
+.last-div{
+    background: #000000;
+}
+
+.last-left-h{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+    color: #FFFFFF;
+    padding-top: 12%;
+}
+
+.last-left-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+    /* hoa-base colors/mid grey */
+    color: #A9A9A9;
+}
+
+.last-h-bottomBorder{
+    border-bottom: 0.5px solid #FFFFFF;
+    padding-bottom: 3px;
+    width: 73%;
+}
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+.last-right-p1{
+    font-family:'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+
+    /* hoa-base colors/mid grey */
+    color: #A9A9A9;
+}
+
+.last-right-p2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+
+    /* hoa-base colors/pure white */
+    color: #FFFFFF;
+}
+
+.last-right-p3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    /* identical to box height, or 17px */
+
+    /* hoa-base colors/pure white */
+    color: #FFFFFF;
+}

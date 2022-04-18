@@ -1,0 +1,620 @@
+.hoa_dashboard-mainDiv{
+    background: #FFFFFF;
+    border: 0.2px solid #333333;
+    box-sizing: border-box;
+    box-shadow: 0px 23px 19px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoa_dashboard-homePage-h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    /* hoa-button colors/dark grey green */
+    color: #075A5A;
+    margin-top: 5%;
+}
+
+.hoa_dashboard-homePage-h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    /* hoa-button colors/dark grey green */
+    color: #075A5A;
+}
+
+.hoa_dashboard-homePage-h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    text-align: center;
+    /* hoa-theme colors/light grey green */
+    color: #239C9C;
+    margin-top: 4%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.hoa_dashboard-homePage-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+    color: #000000;
+    margin-top: 20%;
+}
+
+.hoa_dashboard-homePage-button{
+    background: #239C9C;
+    border-radius: 5px;
+    margin-bottom: 15%;
+}
+
+.hoa_services_left_div{
+    padding-top: 12%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.hoa_services-homebutton{
+    background: #239C9C;
+    border-radius: 5px;
+    margin-top: 8%;
+}
+
+.hoa_services-rightPIC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 23%;
+}
+
+.hoa_services-modal-h1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+}
+.modal .btn-close{
+    background-image: url("../icons/backArrow.svg");
+    opacity: 1;
+}
+
+.modal-inputBoxes{
+    background: #F2F2F2;
+    border-radius: 4px;
+    padding-left: 3%;
+    height: 48px;
+    border: transparent;
+}
+
+.modal-labels{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #000000;
+    opacity: 0.7;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+        -ms-transform: translate3d(0%, 0, 0);
+         -o-transform: translate3d(0%, 0, 0);
+            transform: translate3d(0%, 0, 0);
+}
+
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.right .modal-body {
+    padding: 15px 15px 80px;
+}
+
+
+/*Right*/
+.modal.right.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+       -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+         -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+            transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+.modal-header {
+    border-bottom-color: #EEEEEE;
+    background-color: #FAFAFA;
+}
+
+
+/* Bookkeeping page */
+.hoa_dashboard-subHeading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    /* hoa-theme colors/orange */
+    color: #FBA43F;
+}
+
+.hoa_dashboard-h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 10%;
+}
+
+.hoa_dashboard-left-div{
+    padding-left: 5.7%;
+    margin-top: 5%;
+}
+
+.hoa_dashboard-li{
+    margin-top: 3%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+}
+
+.li-padding{
+    padding-bottom: 3%;
+}
+
+.hoa_dashboard-right-divBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* hoa-base colors/pure white */
+    background: #FFFFFF;
+    /* Gray 4 */
+    border: 0.8px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.hoa_dashboard-button-block{
+    background: #FFFFFF;
+    /* Gray 3 */
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 9px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+
+.hoa_service-rightButtons{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;    
+    background: #FBA43F;
+    border-radius: 5px;
+    border: transparent;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 5px;
+}
+
+.nav>li>a.active,
+.nav>li>a:hover,
+.nav>li>a:focus {
+   background-color: #01655E !important;
+   color: #FFFFFF;
+}
+
+.nav>li>a:link{
+    color: #000000;
+}
+
+.hoa_dashboard-right-h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+}
+
+.hoa_dashboard_right-h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+    border-bottom: 0.8px solid #000000;
+}
+
+.hoa_dashboard-ul-rightTick{
+    list-style-image: url(../icons/rightTick.svg);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.hoa_li-bottom-margin{
+    margin-bottom: 5%;
+}
+
+.hoa_dashboard-center-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F7F7F7;
+    margin-top: 8%;
+}
+
+.hoa_dashboard-bookkeeping-center-div{
+    background: #FFFFFF;
+    /* Gray 4 */
+    border: 0.5px solid #BDBDBD;
+    box-sizing: border-box;
+    box-shadow: 0px 23px 41px rgba(0, 0, 0, 0.07);
+    border-radius: 0px 0px 8px 8px;
+    position: relative;
+    padding-bottom: 20%;
+    margin-bottom: 8%;
+}
+
+.hoa_dashboard-bookkeeping-center-div2{
+    background: #FFFFFF;
+    /* Gray 4 */
+    border: 0.5px solid #BDBDBD;
+    border-radius: 8px 8px 0px 0px;
+    margin-top: 8%;
+}
+
+.hoa_dashboard-bookkeeping-img{
+    margin-top: -15.9%;
+    margin-left: 8%;
+    /* margin-right: 2%; */
+    position: absolute;
+}
+
+.hoa_dashboard-bookkeeping-center-h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    /* hoa-base colors/pure black */
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+    padding-top: 11%;
+}
+
+.strikethrough {
+    position: relative;
+  }
+  .strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 75%;
+    right: 0;
+    border: 1px solid #EB5757;
+    transform: rotate(15deg);
+  }
+
+.hoa_dashboard-bookkeeping-center-h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: -0.02em;
+    color: #EB5757;
+    padding-bottom: 6%;
+}
+
+.hoa_dashboard-bookkeeping-lastdiv{
+    background: #FAFAFA;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+box-shadow: 0px 23px 41px rgba(0, 0, 0, 0.07);    
+}
+
+.hoa_dashboard-bookkeeping-last-right{
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+    padding-top: 10%;
+    box-sizing: border-box;
+box-shadow: 0px 23px 41px rgba(0, 0, 0, 0.07);
+}
+
+.lastDiv-left-h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    /* hoa-theme colors/grey green */
+    color: #01655E;
+    padding-top: 10%;
+    font-weight: 400;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.lastDiv-left-h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 71px;
+    line-height: 75px;
+    font-weight: 700;
+    color: #01655E;
+    padding-left: 8%;
+    padding-right: 0%;
+}
+
+
+.lastDiv-left-body{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    color: #000000;
+    line-height: 27px;
+    margin-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* padding-bottom: 5%; */
+}
+
+.lastDiv-right-button{
+    background: #01655E;
+    /* width: 219px; */
+    /* height: 56px; */
+    border-radius: 8px;
+    margin-top: 2%;
+    border: 1px solid #075A5A;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+
+/* services Types*/
+.hoa_dash-services-button {
+    background: transparent;
+    color: #000000;
+    border: 1px solid #239C9C;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+
+}
+
+.hoa_dash-services-button:hover{
+    background: #239C9C;
+    border: 1px solid #239C9C;
+    color: #FFFFFF;
+}
+
+.hoa_services-home{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-Accounting-link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    /* hoa-button colors/google */
+    color: #5170FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+/*service list*/
+
+.hoa_dashboard-serviceList-h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+} 
+
+.text-align-center{
+    text-align: center;
+}
+
+.hoa_dashboard-tableFooter-border{
+    border: 0.6px solid rgba(130, 130, 130, 0.4);  /* #828282 */
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border-left: transparent;
+    border-right: transparent;
+}
+
+tfoot::before{
+    line-height:2em;
+    content:".";
+    color:white; /* bacground color */
+    display:block;
+}
+
+.hoa_dashboard-serviceList-header-bg{
+    background:#FFFFFF;
+    height: 60px;
+}
+
+.hoa_dashboard-serviceList-header-h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 7px;
+    /* font-size: 17px; */
+    color: #000000;
+}
+
+.hoa_dashboard-serviceList-borderBottom{
+    border-top: 0.6px solid #828282;
+    border-bottom: 0.6px solid #828282;
+    opacity: 0.4;
+}
+
+.hoa_dashboard-serviceList-borderBottom2{
+    border: 0.5px solid #828282;
+    border-top: transparent;
+}
+
+.hoa_dashboard-servicelist-button{
+    background: #FBA43F;
+    border: transparent;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Inter';
+    color:#FFFFFF;
+    padding-top: 10px;
+}
+
+.hao_dashboard-inquery-h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    /* display: flex; */
+    align-items: flex-end;
+    text-align: center;
+    color: #000000;
+}
+
+.hao_dashboard-inquery-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #000000;
+}
+
+.hoa_dashboard-inquery-button{
+    border: 1px solid #075A5A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 48px;
+    background: transparent;
+    color: #075A5A;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 8px;
+    font-size: 18px;
+}
+
+.hoa_dashboard-table-borderBottom{
+    border-bottom: 0.6px solid #828282;
+    opacity: 0.4;
+}
+
+/* customize ur plans */
+.hoa_services-custYourPlan-h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.hoa_services-custYourPlan-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #828282;
+    text-align: center;
+}
+
+.hoa_services-custYourPlan-dropDown{
+    /* hoa-theme colors/grey green */
+    border: 0.5px solid #01655E;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #000000;
+    background: #D3EBEB;
+    background-color: #D3EBEB;
+}
+
+.hoa_services-custYourPlan-dropDown select{
+    background-color: #D3EBEB;
+}
+
+.hoa_services-custYourPlan-dropDown select option{
+    background: #FFFFFF;
+}

@@ -1,0 +1,486 @@
+
+/* css for Name of blog topic section */
+.hoa_blogsTopic-breadcrumb{
+    background:#F7F7F7;
+    padding-top: 1%;
+}
+
+.hoa_blogs-border_bottom{
+    border-bottom: 1px solid #FBA43F;
+    padding-bottom: 3px;
+    width: 50%;
+    }
+
+.hoa_blogs-firstBanner-h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+}
+
+.hoa_blogs-firstBanner-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: #000000;
+}
+
+.figcaption-css{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #828282;
+    padding-top: 1%;
+}
+
+.hoa_blogs-secondBanner-h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+}
+
+.hoa_blogs-secondBanner-p1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #000000;
+}
+
+.hoa_blogs-secondBanner-h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+
+.hoa_blogs-secondBanner-h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+}
+
+.hoa_blogs-thirdBanner-h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: #000000;
+    
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+ 
+  .image1 {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+  }
+
+.figcaption-css2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #828282;
+    margin-top: 1%;
+}
+
+.hoa_blogs-thirdBanner-figcaption3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #000000;
+    margin-top: 1%;
+}
+
+.hoa_blogs-thirdBanner-h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}
+
+.hoa_blogs-thirdBanner-readBlog{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #5170FD;
+}
+
+.hoa_blogs-footer-link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #5170FD;
+}
+
+/* CSS For blog topic section ends here */
+
+/* CSS For Blogs starts here */
+
+.hoa_blogs-greenBanner-h{             /* raed more, learn more section */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.hoa_blogs-navlink-opacity{
+    opacity: 0.5;
+}
+
+.hoa_blogs-greenBanner-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.hoa_blogs-breadcrumb{
+background: #FFFFFF;
+filter: drop-shadow(0px 2px 32px rgba(0, 0, 0, 0.1));
+}
+
+.hoa_blogs-breadcrumb-alignment{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    /* align-items:flex-end;
+    justify-content:flex-end; */
+}
+
+.hoa_blogs-mid1-h1{                 /* for taxation and accoutancy part */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+}
+
+.hoa_blogs-mid1-h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.hoa_blogs-textOnImages-h{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.hoa_blogs-textOnImages-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.hoa_blogs-NextPrevButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.hoa_blogs-buttonPrevious{
+    background-image: url('../icons/blogPrevious.svg');
+    background-repeat: no-repeat;
+    height:42px;
+    width: 42px;
+}
+
+.hoa_blogs-buttonNext{
+    background-image: url('../icons/blogNext.svg');
+    background-repeat: no-repeat;
+    height:42px;
+    width: 42px;
+    float: right;
+}
+
+.hoa_blogs-mid2-h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+}
+
+.hoa_blogs-blogcarousel-h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.hoa_blogs-blogcarousel-h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    letter-spacing: -0.02em;
+    /* hoa-base colors/pure black */
+    color: #000000;
+}
+
+.hoa_blogs-blogcarousel-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #4F4F4F;
+}
+
+.hoa_blogs-blogcarousel-alignment{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: left;
+}
+
+.hoa_blogs-breadcrumb-alignment-rightSide{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    margin-left: 8%;
+}
+
+.hoa_blogs-blogcarousel-ReadMore{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: -0.02em;
+    /* hoa-theme colors/orange */
+    color: #FBA43F;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    background:#239C9C;
+    color: #239C9C;
+  }
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+/* @media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+} */
+
+
+/* Add new blog */
+.hoa_blogs-AddnewBlog-right-topDiv-h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+
+.hoa_blogs-AddnewBlog-right-leftdiv{
+    background: #FFFFFF;
+}
+
+.hoa_blogs-AddnewBlog-right-selectCategory-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #4F4F4F;
+}
+
+.hoa_blogs-AddnewBlog-right-firstRow{
+    background: #FAFAFA;
+    border: 0.2px solid #828282;
+    margin-left: 0%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.hoa_blogs-AddnewBlog-publishButton{
+    background: #FBA43F;
+    border-radius: 4px;
+    border: #FBA43F;
+    color:#FFFFFF;
+    height: 31px;
+    padding-top: 5px;
+}
+
+.hoa_blogs-AddnewBlog-right-addCategoryButton{
+    background: #FBA43F;
+    border-radius: 0px 0px 5px 5px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    height: 32px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.hoa_blogs-AddnewBlog-right-addCate-input{
+    background: #FFFFFF;
+    border: 0.5px solid #828282;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0px 0px;
+    line-height: 3em;
+    margin-top: 75%;
+}                
+
+.custom > button:hover{
+    color: white;
+    background-color:#239C9C;
+}
+
+.custom > button:focus{
+    background-color: #239C9C;
+}
+
+/* posted blogs */
+.hoa_blogs-postedBlogs-rowAlignment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hoa_blogs-postedBlogs-right-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #FAFAFA;
+    border: 0.2px solid #828282;
+}
+
+.hoa_blogs-postedBlogs-blogCount{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #A9A9A9;
+}
+
+.hoa_blogs-postedBlog-dropDown{
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color:#000000;
+    background: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.hoa_blogs-postedBlog-body-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+}
+
+.hoa_blogs-postedBlog-editBlog{
+    background: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #01655E;
+    border: transparent;
+}
+
+.hoa_blogs-postedBlog-DeleteBlog{
+    background: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #EB5757;
+    border: transparent;
+}
+
+.hoa_blogs-postedBlog-editDelete-buttonAlignment{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.hoa_blogs-postedBlog-footer-div{
+    background: #F7F7F7;
+    border: 0.5px solid #A9A9A9;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.hoa_blogs-postedBlog-footer-button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    background: #FBA43F;
+    border-radius: 4px;
+    border: transparent;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,22 @@
+h5{
+    font-size: 17px !important;
+    font-weight: 400 !important;
+}
+.btn_search{
+   
+    padding: 10px;
+    background-color: #FBA43F;
+    color: #fff;
+    border: none;
+    height: 48px;
+    width: 141px;
+    border-radius: 0px;
+
+}
+.btn_02{
+    color:  #828282!important;
+}
+
+.btn_search{
+    margin: 111px;
+}

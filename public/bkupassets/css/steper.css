@@ -1,0 +1,65 @@
+.steper-bg {
+	position:relative;
+	background:#fbfbfa;
+	border-bottom:1px solid #d2d1d2;
+	padding:23px 0px;
+}
+
+.steper-bg2 {
+	position:relative;
+	background:#ffffff;
+	border-bottom:1px solid #d2d1d2;
+	padding:20px 0px;
+}
+
+.steper-num {
+	margin:0px;
+	padding:0px 0px 0px 65px;
+}
+
+@media only screen and (max-width:767px) {
+    .steper-num {
+        margin:0px;
+        padding:0px 0px 0px 20px;
+    }
+}
+
+.steper-num ul {
+	margin:0px;
+	padding:0px;
+}
+
+.steper-num ul li {
+	list-style:none;
+	display: flex;
+    align-items: center;
+	color:#333;
+	padding-right:40px;
+	font-size:15px;
+	text-align:center;
+	float:left;
+}
+
+.steper-num .count {
+	display: flex;
+    background-color: #2a635d;
+    color: #fff;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.steper-num .count.active {
+	background-color: #50E14D;
+    height: 30px;
+    font-size: 20px;
+    width: 30px;
+    color: #ffffff;
+    border-radius: 30px;
+    background-image: url(../images/tick-white.svg);
+    background-size: 100%;
+}

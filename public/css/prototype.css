@@ -1,0 +1,157 @@
+.h1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 110%;
+    color: #000000;
+}
+.h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.p17-n{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.p15-5{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.p15-n{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 110%;
+}
+
+.p13-5{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.p13-lg{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.p13-3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 110%;
+    color: #000000;
+}
+
+
+/* text color */
+.text_dark-green{
+    color: #01655E
+}
+.text_light-green{
+    color: #239C9C;
+}
+.text_red{
+    color: #EB5757;
+}
+.text_light-green-2{
+    color: #D3EBEB;
+}
+.text_dark-blue{
+    color: #4636FC;
+}
+.text_green{
+    color: #50E14D
+}
+.text_orange{
+    color: #DE7C21;
+}
+.text_black{
+    color: #000000;
+}
+.text_white{
+    color: #ffffff;
+}
+.text_grey{
+    color: #A9A9A9;
+}
+.text_grey-1{
+    color: #F7F7F7;
+}
+.text_grey-2{
+    color: #FAFAFA;
+}
+
+/* bg colors */
+
+.bg_dark-green{
+    background: #01655E
+}
+.bg_light-green{
+    background: #239C9C;
+}
+.bg_red{
+    background: #EB5757;
+}
+.bg_light-green-2{
+    background: #D3EBEB;
+}
+.bg_dark-blue{
+    background: #4636FC;
+}
+.bg_green{
+    background: #50E14D
+}
+.bg_orange{
+    background: #DE7C21;
+}
+.bg_black{
+    background: #000000;
+}
+.bg_white{
+    background: #ffffff;
+}
+.bg_grey{
+    background: #A9A9A9;
+}
+.bg_grey-1{
+    background: #F7F7F7;
+}
+.bg_grey-2{
+    background: #FAFAFA;
+}
